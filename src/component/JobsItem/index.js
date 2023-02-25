@@ -5,7 +5,7 @@ import {IoLocationSharp, IoBagRemoveSharp} from 'react-icons/io5'
 
 import './index.css'
 
-const JobCard = props => {
+const JobsItem = props => {
   const {jobDetails} = props
   const {
     id,
@@ -57,4 +57,4 @@ const JobCard = props => {
   )
 }
 
-export default JobCard
+export default JobsItem

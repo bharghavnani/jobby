@@ -144,11 +144,11 @@ class Jobs extends Component {
   renderSuccessView = () => {
     const {profileData} = this.state
 
-    const {name, profile, profile_image_url, shortBio} = profileData
+    const {name, profile, profileImageUrl, shortBio} = profileData
 
     return (
       <div className="profile-view">
-        <img alt={profile} className="profile-image" src={profile_image_url} />
+        <img alt={profile} className="profile-image" src={profileImageUrl} />
         <h1 className="profile-heading">{name}</h1>
         <p className="profile-para">{shortBio}</p>
       </div>
